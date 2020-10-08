@@ -3,8 +3,16 @@
 
 .contact {
   @include background;
-  background-image: url('contactImage.png');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 50vw;
+  background: radial-gradient(circle at top, #020202 0%, #fdfdfd 100%);
+  overflow: hidden;
+  filter: drop-shadow(0 0 10px rgb(0,0,0));
+
+  section {
+    height:100%;
+    width: 100%;
+    background-image: url('contactImage.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50vw;
+  }
 }

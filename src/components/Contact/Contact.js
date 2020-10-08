@@ -8,9 +8,11 @@ const Contact = (props) => {
 
   return (
     <div className='contact'>
-      <nav>
-        <img src={logo} alt='Logo' onClick={() => props.history.push('/')} />
-      </nav>
+      <section>
+        <nav>
+          <img src={logo} alt='Logo' onClick={() => props.history.push('/')} />
+        </nav>
+      </section>
     </div>
   )
 }
