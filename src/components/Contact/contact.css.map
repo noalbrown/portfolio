@@ -1,8 +1,10 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "AAGA,AAAA,QAAQ,CAAC;EEFP,MAAM,EAAC,KAAK;EACZ,KAAK,EAAC,KAAK;EACX,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,eAAe,EAAE,MAAM;EACvB,WAAW,EAAE,MAAM;EFDnB,gBAAgB,EAAE,uBAAuB;EACzC,mBAAmB,EAAE,MAAM;EAC3B,iBAAiB,EAAE,SAAS;EAC5B,eAAe,EAAE,IAAI;CACtB",
     "sources": [
-        "contact.scss"
+        "contact.scss",
+        "../../sass/config.scss",
+        "../../sass/utilities.scss"
     ],
     "names": [],
     "file": "contact.css"

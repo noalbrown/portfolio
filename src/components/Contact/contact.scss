@@ -1,0 +1,10 @@
+@import '../../sass/config.scss';
+@import '../../sass/utilities.scss';
+
+.contact {
+  @include background;
+  background-image: url('contactImage.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50vw;
+}
