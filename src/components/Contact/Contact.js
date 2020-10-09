@@ -20,7 +20,7 @@ const Contact = (props) => {
         ) : (
             <form
               action='mailto:noalbrown1@gmail.com'
-              method='post'
+              method='get'
               enctype='text/plain'>
               <div>
                 <label for='name'>Name:
