@@ -7,6 +7,33 @@
   overflow: hidden;
   filter: drop-shadow(0 0 10px rgb(0,0,0));
 
+  nav {
+    z-index: 100;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    
+    img {
+      padding:20px 0 0 50px;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+
+    div {
+      padding:20px 75px 0 0;
+      font-family: $primary-font;
+
+      &:hover {
+        text-decoration: underline;
+        cursor: pointer;
+      }
+    }
+  }
+
   section {
     height:100%;
     width: 100%;
@@ -14,5 +41,108 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    div {
+      height:45%;
+      width:40%;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .emailMe {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        button {
+          font-family: $primary-font;
+          background:transparent;
+          border:none;
+          text-decoration: underline;
+
+          &:hover {
+            cursor: pointer;
+          }
+        }
+      }
+
+      .links {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: space-between;
+      }
+    }
+  }
+
+  form {
+    background: $primary-color;
+    height:60%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 10%;
+    font-family: $primary-font;
+
+    #name {
+      height: 10%;
+      width:100%;
+      padding-top: 20px;
+
+      input:focus {
+        outline: none;
+      }
+    }
+
+    #email {
+      height:10%;
+      width:100%;
+
+      input:focus {
+        outline: none;
+      }
+    }
+
+    #message {
+      height: 50%;
+      width: 100%;
+      align-items: flex-start;
+      justify-content: center;
+      padding-left: 20px;
+
+      textarea {
+        height:30%;
+        width: 90%;
+
+        &:focus {
+          outline:none;
+        }
+      }
+    }
+
+    #formButtons {
+      height: 30%;
+      width:100%;
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      justify-content: space-evenly;
+
+      input {
+        background:transparent;
+        border:none;
+        text-decoration: underline;
+        font-family: $primary-font;
+
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
   }
 }

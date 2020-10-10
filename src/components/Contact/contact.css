@@ -20,6 +20,39 @@
           filter: drop-shadow(0 0 10px black);
 }
 
+.contact nav {
+  z-index: 100;
+  height: 10vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.contact nav img {
+  padding: 20px 0 0 50px;
+}
+
+.contact nav img:hover {
+  cursor: pointer;
+}
+
+.contact nav div {
+  padding: 20px 75px 0 0;
+  font-family: "Libre Baskerville", serif;
+}
+
+.contact nav div:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 .contact section {
   height: 100%;
   width: 100%;
@@ -27,5 +60,156 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: 50vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contact section div {
+  height: 45%;
+  width: 40%;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact section div .emailMe {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contact section div .emailMe button {
+  font-family: "Libre Baskerville", serif;
+  background: transparent;
+  border: none;
+  text-decoration: underline;
+}
+
+.contact section div .emailMe button:hover {
+  cursor: pointer;
+}
+
+.contact section div .links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.contact form {
+  background: #b1b1b1;
+  height: 60%;
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  border-radius: 10%;
+  font-family: "Libre Baskerville", serif;
+}
+
+.contact form #name {
+  height: 10%;
+  width: 100%;
+  padding-top: 20px;
+}
+
+.contact form #name input:focus {
+  outline: none;
+}
+
+.contact form #email {
+  height: 10%;
+  width: 100%;
+}
+
+.contact form #email input:focus {
+  outline: none;
+}
+
+.contact form #message {
+  height: 50%;
+  width: 100%;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-left: 20px;
+}
+
+.contact form #message textarea {
+  height: 30%;
+  width: 90%;
+}
+
+.contact form #message textarea:focus {
+  outline: none;
+}
+
+.contact form #formButtons {
+  height: 30%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.contact form #formButtons input {
+  background: transparent;
+  border: none;
+  text-decoration: underline;
+  font-family: "Libre Baskerville", serif;
+}
+
+.contact form #formButtons input:hover {
+  cursor: pointer;
 }
 /*# sourceMappingURL=contact.css.map */
