@@ -42,8 +42,10 @@ const About = (props) => {
           <img src={image1} alt='Project' />
           <h2>The Ivory Foundation</h2>
           <p>A community uplift site that allows any user to nominate outstanding citizens for awards, donate towards projects, or volunteer to be involved in projects. The user also has the option to log in and track their involvement within the community.
+          </p>
           <hr />
-          Full stack React Redux application implementing full authentication and a database
+          <p>
+            Full stack React Redux application implementing full authentication and a database
           Technologies used: React | NodeJS | PostgreSQL | Postman | GitHub | RESTful API | Redux | Express | Massive | Axios | CSS | Javascript | Nodemailer | Stripe</p>
           <div>
             <a href="https://www.ivory-foundation.com" target="_blank" rel='noopener noreferrer'>Ivory Foundation Website</a>
@@ -56,7 +58,9 @@ const About = (props) => {
           <h2>Game Stash</h2>
           <p>Displays a list of video games which can then be added to a personal collection
           Full stack React Redux application implementing full authentication and a database with multiple joins, hosted with a domain
-            <hr />
+          </p>
+          <hr />
+          <p>
             Technologies used: React | NodeJS | PostgreSQL | Postman | GitHub | RESTful API | Redux | Express | Massive | Axios | SASS | CSS | JavaScript | CSS in JS</p>
           <div>
             <a href="http://www.projectgamestash.com/#/" target="_blank" rel='noopener noreferrer'>Game Stash Website</a>
@@ -70,7 +74,9 @@ const About = (props) => {
           <p>No Database Backpack Project
           Allows a user to add, edit, or delete items from a backpack webpage
           A ¾ stack project utilizing full CRUD
-            <hr />
+          </p>
+          <hr />
+          <p>
             Technologies used: CSS | Javascript</p>
           <div>
             <a href="https://github.com/noalbrown/NoDB" target="_blank" rel='noopener noreferrer'>Backpack Project Github</a>
@@ -83,7 +89,9 @@ const About = (props) => {
           <p>Backup No Database Project (made this to ensure successful understanding)
           Allows a user to add, edit, or delete parts in a lightsaber webpage
           A ¾ stack project utilizing full CRUD
-            <hr />
+          </p>
+          <hr />
+          <p>
             Technologies used: CSS | Javascript</p>
           <div>
             <a href="https://github.com/noalbrown/noDBextraPractice" target="_blank" rel='noopener noreferrer'>Saber Builder Github</a>

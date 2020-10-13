@@ -13,10 +13,11 @@ const Contact = (props) => {
     e.preventDefault();
 
     emailjs.sendForm('gmail', 'template_mj65ji9', e.target, 'user_LnffIrGr98t5TIj8JGNv9')
-      .then((result) => {
-        console.log(result.text);
-      }, (error) => {
-        console.log(error.text);
+      .then((res) => {
+        alert('Email Sent');
+      })
+      .catch((err) => {
+        alert('Cannot Send');
       });
     e.target.reset()
   }
@@ -41,14 +42,14 @@ const Contact = (props) => {
         ) : (
             <form onSubmit={sendEmail}>
               <div id='name'>
-                <label for='name'>Name:
+                <label>Name:
                   <input
                     type='text'
                     name='name' />
                 </label>
               </div>
               <div id='email'>
-                <label for='email'>Email:
+                <label>Email:
                   <input
                     type='text'
                     name='email' />

@@ -113,3 +113,54 @@
     }
   }
 }
+
+@media (max-width: $media-tablet){
+  .home {
+    nav {
+      div:nth-child(2) {
+        padding-right: 50px;
+      }
+    }
+
+    section {
+      h1 {
+        margin-right: 25px;
+      }
+
+      h6 {
+        margin-right: 25px;
+      }
+    }
+  }
+}
+
+@media (max-width: $media-mobile){
+  .home {
+    nav {
+      font-size: 0.75rem;
+
+      div {
+        padding: 15px;
+      }
+
+      div:nth-child(2) {
+        padding-right: 10px;
+      }
+    }
+
+    section {
+      justify-content: flex-end;
+      align-items: flex-start;
+
+      h1 {
+        font-size: 2rem;
+        padding-bottom: 20px;
+      }
+
+      h6 {
+        font-size: 1rem;
+        margin-bottom:150px;
+      }
+    }
+  }
+}
