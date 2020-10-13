@@ -227,6 +227,9 @@
   .about .story .chapters:hover div {
     display: initial;
   }
+  .about .story .chapters:hover div a {
+    padding: 5px;
+  }
   .about .story .chapters:hover h2 {
     height: 10vh;
     width: 80%;
@@ -245,6 +248,65 @@
     background: transparent;
     width: 80%;
     margin: auto auto;
+  }
+}
+
+@media (max-width: 400px) {
+  .about {
+    background: radial-gradient(circle at top right, #020202 0%, #fdfdfd 20%);
+  }
+  .about .introduction {
+    width: 100%;
+  }
+  .about .introduction p {
+    font-size: 1rem;
+  }
+  .about .story {
+    width: 80vw;
+    margin: auto auto;
+  }
+  .about .story .chapters h2 {
+    text-align: center;
+  }
+  .about .story .chapters:hover {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 0;
+    padding: 5px;
+  }
+  .about .story .chapters:hover img {
+    width: 90%;
+    padding: 0;
+  }
+  .about .story .chapters:hover h2 {
+    font-size: 1rem;
+    padding: 10px 0 0 0;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .about .story .chapters:hover div {
+    width: 100%;
+    padding: 2px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .about .story .chapters:hover div a {
+    padding: 2px;
+  }
+  .about .story footer {
+    width: 100%;
+  }
+}
+
+@media (max-width: 414px) {
+  .about .story {
+    width: 90vw;
   }
 }
 /*# sourceMappingURL=about.css.map */
