@@ -156,12 +156,25 @@
         justify-content: space-evenly;
 
         .links {
-          width: 100%;
+          width: 80%;
         }
       }
 
       form {
-        height: 40%;
+        height: 50%;
+        width: 90%;
+      }
+    }
+  }
+}
+
+@media (max-width: $media-iphone6) {
+  .contact {
+    section {
+      div {
+        .links {
+          width: 80%;
+        }
       }
     }
   }

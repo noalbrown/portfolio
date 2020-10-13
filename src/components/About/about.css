@@ -251,6 +251,12 @@
   }
 }
 
+@media (max-width: 414px) {
+  .about .story {
+    width: 90vw;
+  }
+}
+
 @media (max-width: 400px) {
   .about {
     background: radial-gradient(circle at top right, #020202 0%, #fdfdfd 20%);
@@ -301,12 +307,6 @@
   }
   .about .story footer {
     width: 100%;
-  }
-}
-
-@media (max-width: 414px) {
-  .about .story {
-    width: 90vw;
   }
 }
 /*# sourceMappingURL=about.css.map */

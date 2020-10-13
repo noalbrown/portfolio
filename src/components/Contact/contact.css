@@ -224,10 +224,17 @@
             justify-content: space-evenly;
   }
   .contact section div .links {
-    width: 100%;
+    width: 80%;
   }
   .contact section form {
-    height: 40%;
+    height: 50%;
+    width: 90%;
+  }
+}
+
+@media (max-width: 414px) {
+  .contact section div .links {
+    width: 80%;
   }
 }
 /*# sourceMappingURL=contact.css.map */

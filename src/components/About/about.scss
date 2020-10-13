@@ -224,6 +224,14 @@
   }
 }
 
+@media (max-width: $media-iphone6) {
+  .about {
+    .story {
+      width: 90vw;
+    }
+  }
+}
+
 @media (max-width: $media-mobile) {
   .about {
     background: radial-gradient(circle at top right, #020202 0%, #fdfdfd 20%);
@@ -277,14 +285,6 @@
       footer {
         width: 100%;
       }
-    }
-  }
-}
-
-@media (max-width: 414px) {
-  .about {
-    .story {
-      width: 90vw;
     }
   }
 }
