@@ -212,4 +212,22 @@
 .contact form #formButtons input:hover {
   cursor: pointer;
 }
+
+@media (max-width: 1280px) {
+  .contact section {
+    background-size: 100%;
+  }
+  .contact section div {
+    height: 25%;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .contact section div .links {
+    width: 100%;
+  }
+  .contact section form {
+    height: 40%;
+  }
+}
 /*# sourceMappingURL=contact.css.map */
