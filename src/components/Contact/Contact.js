@@ -12,14 +12,14 @@ const Contact = (props) => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('gmail', 'template_mj65ji9', e.target, 'user_LnffIrGr98t5TIj8JGNv9')
+    emailjs.sendForm('service_ja7fmvh', 'template_mj65ji9', e.target, 'user_LnffIrGr98t5TIj8JGNv9')
       .then((res) => {
         alert('Email Sent');
+        setToggle(!toggle);
       })
       .catch((err) => {
         alert('Cannot Send');
       });
-    e.target.reset()
   }
 
   return (
@@ -40,7 +40,7 @@ const Contact = (props) => {
             </div>
           </div>
         ) : (
-            <form onSubmit={sendEmail}>
+            <form className='contact-form' onSubmit={sendEmail}>
               <div id='name'>
                 <label>Name:
                   <input
@@ -66,12 +66,13 @@ const Contact = (props) => {
                 <input type='submit'
                   name='submit'
                   value='Send'
-                  onClick={() => { setToggle(!toggle) }} />
+                />
                 <input
                   type='reset'
                   name='reset'
                   value='Cancel'
-                  onClick={() => { setToggle(!toggle) }} />
+                  onClick={() => setToggle(!toggle)}
+                />
               </div>
             </form>
           )}
