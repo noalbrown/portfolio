@@ -35,6 +35,19 @@
     }
   }
 
+  .skill-icons {
+    height: 80vw;
+    width: 10vw;
+    position: absolute;
+    top:200px;
+    right:25px;
+    div {
+      height:10%;
+      width: 100%;
+      padding: 20px;
+    }
+  }
+
   .introduction {
     padding-top:75px;
     width:50vw;
@@ -147,6 +160,19 @@
 
 @media (max-width: $media-desktop) {
   .about {
+    .skill-icons {
+      height:35%;
+      width: 20%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      
+      div{
+        height: 10%;
+        width: 10%;
+      }
+    }
+
     .story {
       width: 95vw;
       padding:15px;
@@ -226,6 +252,10 @@
 
 @media (max-width: $media-iphone6) {
   .about {
+    .skill-icons {
+      display: none;
+    }
+
     .story {
       width: 90vw;
     }

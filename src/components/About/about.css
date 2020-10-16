@@ -40,6 +40,20 @@
   cursor: pointer;
 }
 
+.about .skill-icons {
+  height: 80vw;
+  width: 10vw;
+  position: absolute;
+  top: 200px;
+  right: 25px;
+}
+
+.about .skill-icons div {
+  height: 10%;
+  width: 100%;
+  padding: 20px;
+}
+
 .about .introduction {
   padding-top: 75px;
   width: 50vw;
@@ -174,6 +188,22 @@
 }
 
 @media (max-width: 1280px) {
+  .about .skill-icons {
+    height: 35%;
+    width: 20%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .about .skill-icons div {
+    height: 10%;
+    width: 10%;
+  }
   .about .story {
     width: 95vw;
     padding: 15px;
@@ -252,6 +282,9 @@
 }
 
 @media (max-width: 414px) {
+  .about .skill-icons {
+    display: none;
+  }
   .about .story {
     width: 90vw;
   }

@@ -1,4 +1,12 @@
 import React from 'react';
+import Html5Icon from './iconsSkills/Html5Icon';
+import Css3Icon from './iconsSkills/Css3Icon';
+import JavascriptIcon from './iconsSkills/JavascriptIcon';
+import ReactIcon from './iconsSkills/ReactIcon';
+import Bx1ReduxIcon from './iconsSkills/Bx1ReduxIcon';
+import NodejsIcon from './iconsSkills/NodejsIcon';
+import PostgressqlIcon from './iconsSkills/PostgressqlIcon';
+import SassIcon from './iconsSkills/SassIcon';
 import './about.css';
 
 const About = (props) => {
@@ -15,6 +23,16 @@ const About = (props) => {
         <img src={logo} alt='Logo' onClick={() => props.history.push('/')} />
         <div onClick={() => props.history.push('/contact')}>CONTACT</div>
       </nav>
+      <section className='skill-icons'>
+        <div><Html5Icon width='100%' height="100%" color='lightGrey'></Html5Icon></div>
+        <div><Css3Icon width='100%' height="100%" color='lightGrey'></Css3Icon></div>
+        <div><JavascriptIcon width='100%' height="100%" color='lightGrey'></JavascriptIcon></div>
+        <div><ReactIcon width='100%' height="100%" color='lightGrey'></ReactIcon></div>
+        <div><Bx1ReduxIcon width='100%' height="100%" color='lightGrey'></Bx1ReduxIcon></div>
+        <div><NodejsIcon width='100%' height="100%" color='lightGrey'></NodejsIcon></div>
+        <div><PostgressqlIcon width='100%' height="100%" color='lightGrey'></PostgressqlIcon></div>
+        <div><SassIcon width='100%' height="100%" color='lightGrey'></SassIcon></div>
+      </section>
       <section className='introduction'>
         <h1>My Journey</h1>
         <p>Most recently I attended DevMountain's Full Stack Web Developer boot camp building skill sets to use in a real world environment, working on side projects, and general character building.
@@ -33,7 +51,7 @@ const About = (props) => {
               <h2>Project Name</h2>
               <p>tellus integer feugiat scelerisque varius morbi enim nunc faucibus a pellentesque sit amet porttitor eget dolor morbi non arcu risus</p>
               <div>
-                <a href="" target="_blank">Website</a>
+                <a href="" target="_blank" rel='noopener noreferrer'>Website</a>
               </div>
             </div> */}
 

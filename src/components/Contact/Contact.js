@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
 import LinkedinAltIcon from './icons/Linkedin';
 import ResumeIcon from './icons/Resume';
+import GithubIcon from './icons/GithubIcon';
 import './contact.css';
 
 const Contact = (props) => {
@@ -36,6 +37,7 @@ const Contact = (props) => {
             </div>
             <div className='links'>
               <a href="https://www.linkedin.com/in/%E2%98%87-noal-brown-9b7b121a4?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bf377ceYdTHCRQHLbNSRpsQ%3D%3D" target="_blank" rel='noopener noreferrer'><LinkedinAltIcon width='30px' height='30px'></LinkedinAltIcon></a>
+              <a href="https://github.com/noalbrown" target="_blank" rel='noopener noreferrer'><GithubIcon width='30px' height='30px' color='black'></GithubIcon></a>
               <a href="https://docs.google.com/document/d/1ac180KloLCcPyHTjy0zd0TfyiLtYpSTBFch3DSWHm4I/edit" target="_blank" rel='noopener noreferrer'><ResumeIcon width='30px' height='30px' color='blue'></ResumeIcon></a>
             </div>
           </div>
