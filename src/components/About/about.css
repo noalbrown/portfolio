@@ -54,6 +54,12 @@
   padding: 20px;
 }
 
+.about .skill-icons div p {
+  color: lightgrey;
+  font-family: "Libre Baskerville", serif;
+  text-align: center;
+}
+
 .about .introduction {
   padding-top: 75px;
   width: 50vw;

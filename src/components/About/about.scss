@@ -41,10 +41,17 @@
     position: absolute;
     top:200px;
     right:25px;
+
     div {
       height:10%;
       width: 100%;
       padding: 20px;
+
+      p {
+        color: lightgrey;
+        font-family: $primary-font;
+        text-align: center;
+      }
     }
   }
 

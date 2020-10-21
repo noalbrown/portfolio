@@ -24,14 +24,30 @@ const About = (props) => {
         <div onClick={() => props.history.push('/contact')}>CONTACT</div>
       </nav>
       <section className='skill-icons'>
-        <div><Html5Icon width='100%' height="100%" color='lightGrey'></Html5Icon></div>
-        <div><Css3Icon width='100%' height="100%" color='lightGrey'></Css3Icon></div>
-        <div><JavascriptIcon width='100%' height="100%" color='lightGrey'></JavascriptIcon></div>
-        <div><ReactIcon width='100%' height="100%" color='lightGrey'></ReactIcon></div>
-        <div><Bx1ReduxIcon width='100%' height="100%" color='lightGrey'></Bx1ReduxIcon></div>
-        <div><NodejsIcon width='100%' height="100%" color='lightGrey'></NodejsIcon></div>
-        <div><PostgressqlIcon width='100%' height="100%" color='lightGrey'></PostgressqlIcon></div>
-        <div><SassIcon width='100%' height="100%" color='lightGrey'></SassIcon></div>
+        <div><Html5Icon width='100%' height="100%" color='lightGrey'></Html5Icon>
+          <p>HTML</p>
+        </div>
+        <div><Css3Icon width='100%' height="100%" color='lightGrey'></Css3Icon>
+          <p>CSS</p>
+        </div>
+        <div><JavascriptIcon width='100%' height="100%" color='lightGrey'></JavascriptIcon>
+          <p>JavaScript</p>
+        </div>
+        <div><ReactIcon width='100%' height="100%" color='lightGrey'></ReactIcon>
+          <p>React</p>
+        </div>
+        <div><Bx1ReduxIcon width='100%' height="100%" color='lightGrey'></Bx1ReduxIcon>
+          <p>Redux</p>
+        </div>
+        <div><NodejsIcon width='100%' height="100%" color='lightGrey'></NodejsIcon>
+          <p>NodeJS</p>
+        </div>
+        <div><PostgressqlIcon width='100%' height="100%" color='lightGrey'></PostgressqlIcon>
+          <p>PostgreSQL</p>
+        </div>
+        <div><SassIcon width='100%' height="100%" color='lightGrey'></SassIcon>
+          <p>SASS</p>
+        </div>
       </section>
       <section className='introduction'>
         <h1>My Journey</h1>
