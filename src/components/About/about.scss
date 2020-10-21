@@ -168,11 +168,7 @@
 @media (max-width: $media-desktop) {
   .about {
     .skill-icons {
-      height:35%;
-      width: 20%;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-evenly;
+      display: none;
       
       div{
         height: 10%;
