@@ -16,6 +16,7 @@ const About = (props) => {
   const image2 = require('./imgs/personalProject.jpg');
   const image3 = require('./imgs/noDB.jpg');
   const image4 = require('./imgs/noDBExtra.jpg');
+  const image5 = require('./imgs/devMountain.png');
 
   return (
     <div className='about'>
@@ -51,7 +52,7 @@ const About = (props) => {
       </section>
       <section className='introduction'>
         <h1>My Journey</h1>
-        <p>Most recently I attended DevMountain's Full Stack Web Developer boot camp building skill sets to use in a real world environment, working on side projects, and general character building.
+        <p>Most recently I attended and received honors at DevMountain's Full Stack Web Developer boot camp building skill sets to use in a real world environment, working on side projects, and general character building.
           <br />
         Before that i had over 7 years of employee management in a production centered, high stress, and hazardous atmosphere. Extensive Automotive, Diesel, Diesel-electric maintenance and repair. I am very computer literate and work well with numbers, advanced formulas, and major calculations. I have a current passport and TSA security clearance.
         </p>
@@ -70,6 +71,16 @@ const About = (props) => {
                 <a href="" target="_blank" rel='noopener noreferrer'>Website</a>
               </div>
             </div> */}
+
+        <label>October 2020</label>
+        <div className='chapters'>
+          <img src={image5} alt='Project' />
+          <h2>DevMountain's Honor Badge</h2>
+          <p>After graduating from DevMountain students that have shown exemplary work and have met higher than the standard requirements are issued this badge as Honors.</p>
+          <div>
+            <a href="https://www.youracclaim.com/badges/a21650cd-98e0-4933-9d08-05a862f042f6/public_url" target="_blank" rel='noopener noreferrer'>Official Certificate</a>
+          </div>
+        </div>
 
         <label>October 2020:</label>
         <div className='chapters'>
