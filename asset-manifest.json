@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.5711b10e.chunk.css",
-    "main.js": "/portfolio/static/js/main.53590c08.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.53590c08.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.c4691b98.chunk.css",
+    "main.js": "/portfolio/static/js/main.0357089e.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.0357089e.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.209c2d7e.js.map",
-    "static/js/2.fde712d5.chunk.js": "/portfolio/static/js/2.fde712d5.chunk.js",
-    "static/js/2.fde712d5.chunk.js.map": "/portfolio/static/js/2.fde712d5.chunk.js.map",
+    "static/js/2.3675937b.chunk.js": "/portfolio/static/js/2.3675937b.chunk.js",
+    "static/js/2.3675937b.chunk.js.map": "/portfolio/static/js/2.3675937b.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.1a8d164e549fef829aad737f5bc04536.js": "/portfolio/precache-manifest.1a8d164e549fef829aad737f5bc04536.js",
+    "precache-manifest.f105aff41869b2800054288549202e37.js": "/portfolio/precache-manifest.f105aff41869b2800054288549202e37.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.5711b10e.chunk.css.map": "/portfolio/static/css/main.5711b10e.chunk.css.map",
-    "static/js/2.fde712d5.chunk.js.LICENSE.txt": "/portfolio/static/js/2.fde712d5.chunk.js.LICENSE.txt",
+    "static/css/main.c4691b98.chunk.css.map": "/portfolio/static/css/main.c4691b98.chunk.css.map",
+    "static/js/2.3675937b.chunk.js.LICENSE.txt": "/portfolio/static/js/2.3675937b.chunk.js.LICENSE.txt",
     "static/media/contact.css": "/portfolio/static/media/contactImage.0594e2f4.png",
+    "static/media/devMountain.png": "/portfolio/static/media/devMountain.eb5df0e3.png",
     "static/media/groupProject.jpg": "/portfolio/static/media/groupProject.8a0a4719.jpg",
     "static/media/noDB.jpg": "/portfolio/static/media/noDB.5c35f27d.jpg",
     "static/media/noDBExtra.jpg": "/portfolio/static/media/noDBExtra.ff0b9a71.jpg",
@@ -20,8 +21,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.209c2d7e.js",
-    "static/js/2.fde712d5.chunk.js",
-    "static/css/main.5711b10e.chunk.css",
-    "static/js/main.53590c08.chunk.js"
+    "static/js/2.3675937b.chunk.js",
+    "static/css/main.c4691b98.chunk.css",
+    "static/js/main.0357089e.chunk.js"
   ]
 }
