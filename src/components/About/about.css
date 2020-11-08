@@ -150,12 +150,13 @@
   font-size: 1.25rem;
 }
 
-.about .story .chapters p {
+.about .story .chapters > p {
   font-family: "Courier New", Courier, monospace;
   padding: 10px;
 }
 
-.about .story .chapters p hr {
+.about .story .chapters hr {
+  width: 100%;
   border-color: transparent;
 }
 

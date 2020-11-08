@@ -129,13 +129,14 @@
         font-size: 1.25rem;
       }
 
-      p {
+      > p {
         font-family: $secondary-font;
         padding: 10px;
+      }
 
-        hr {
-          border-color: transparent;
-        }
+      hr {
+        width: 100%;
+        border-color: transparent;
       }
 
       div {
