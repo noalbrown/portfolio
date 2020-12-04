@@ -1,10 +1,10 @@
 @import '../../sass/config.scss';
 @import '../../sass/utilities.scss';
 
-body {
+.notFound {
   @include background;
 
-  div {
+  .container {
     height: 50%;
     width: 100%;
     display: flex;
@@ -28,8 +28,8 @@ body {
 }
 
 @media (max-width: $media-iphone6) {
-  body {
-    div{
+  .notFound {
+    .container{
       h1 {
         font-size: 2rem;
         color: red;
