@@ -3,7 +3,7 @@
 
 .home {
   @include background;
-  background: radial-gradient(circle at left, #020202 0%, #fdfdfd 50%);
+  background: repeating-radial-gradient(circle at top right, #020202 0%, #fdfdfd 50%);
   overflow: hidden;
   filter: drop-shadow(0 0 10px rgb(0,0,0));
   justify-content: initial;
